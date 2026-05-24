@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CCNA 200-301 Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>CCNA 200-301 Quiz</h1>
+
+<!-- MENU PRINCIPAL -->
+
+<div id="main-menu">
+
+<h2>Módulos CCNA</h2>
+
+<div class="tema-grid">
+
+<button class="tema-btn" onclick="mostrarSubtemas('fundamentos')">
+1️⃣ Fundamentos de Redes
+</button>
+
+<button class="tema-btn">
+2️⃣ Acceso a Redes
+</button>
+
+<button class="tema-btn">
+3️⃣ Conectividad IP
+</button>
+
+<button class="tema-btn">
+4️⃣ Servicios IP
+</button>
+
+<button class="tema-btn">
+5️⃣ Fundamentos de Seguridad
+</button>
+
+<button class="tema-btn">
+6️⃣ Automatización y Programabilidad
+</button>
+
+<button class="tema-btn">
+7️⃣ Simulador CCNA 1
+</button>
+
+<button class="tema-btn">
+8️⃣ Simulador CCNA 2
+</button>
+
+<button class="tema-btn">
+9️⃣ Simulador CCNA 3
+</button>
+
+<button class="tema-btn">
+🔟 Simulador CCNA 4
+</button>
+
+</div>
+
+</div>
+
+<!-- SUBTEMAS -->
+
+<div id="subtemas" class="hidden">
+
+<button class="volver-btn" onclick="volverMenu()">
+⬅ Volver al menú
+</button>
+
+<h2>1️⃣ Fundamentos de Redes</h2>
+
+<div class="tema-grid">
+
+<button class="tema-btn" onclick="iniciarTema('tema11')">
+1.1 Introducción a las redes y modelos de red
+</button>
+
+
+<button class="tema-btn" onclick="iniciarTema('tema12')">
+1.2 LAN/WAN/WLAN y características de una red</button>
+
+<button class="tema-btn">
+1.3 Componentes de redes empresariales
+</button>
+
+<button class="tema-btn">
+1.4 Diseño jerárquico y topologías
+</button>
+
+<button class="tema-btn">
+1.5 Modelos OSI y TCP/IP
+</button>
+
+<button class="tema-btn">
+1.6 Protocolos TCP y UDP
+</button>
+
+<button class="tema-btn">
+1.7 Introducción IPv4
+</button>
+
+<button class="tema-btn">
+1.8 Conversión binario-decimal
+</button>
+
+<button class="tema-btn">
+1.9 CIDR
+</button>
+
+<button class="tema-btn">
+1.10 Tipos de direcciones IPv4
+</button>
+
+</div>
+
+</div>
+
+<!-- QUIZ -->
+
+<div id="quiz-container" class="hidden">
+
+<button class="volver-btn" onclick="volverSubtemas()">
+⬅ Volver a subtemas
+</button>
+
+<div id="contador"></div>
+
+<div id="timer">
+⏱ Tiempo: 00:00
+</div>
+
+<h2 id="question"></h2>
+
+<div id="multi-info"></div>
+
+<div id="options"></div>
+
+<button id="next-btn">
+Verificar respuesta
+</button>
+
+<div id="explanation"></div>
+
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
