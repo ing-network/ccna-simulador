@@ -13,6 +13,31 @@ options:[
 answer:1,
 explanation:"ARPA fue creada por el Departamento de Defensa de EE.UU. para desarrollar tecnologías avanzadas relacionadas con defensa y comunicaciones para que se utilizaran en universidades y laboratorios de investigación."
 },
+{
+  "question": "Selecciona los tres componentes que se combinan para realizar el cálculo del CHECKSUM en la capa de transporte:",
+  "options": [
+    "Header TCP completo",
+    "Datos de la aplicación",
+    "Pseudo-header con información IP",
+    "Preámbulo de la trama de enlace de datos",
+    "Dirección física de los switches intermediarios"
+  ],
+  "answer": [1, 2, 3],
+  "explanation": "Para garantizar la integridad del segmento, el Checksum valida conjuntamente todo el Header TCP, los datos adjuntos y el pseudo-header con datos de la capa IP."
+},
+
+
+{
+  "question": "¿Cuál es el orden lógico y correcto que sigue la capa de transporte para finalizar la creación de un segmento TCP?",
+  "options": [
+    "Primero se arma el header, luego se calcula el checksum (usando el header, datos y pseudo-header IP) y finalmente se guarda ese checksum dentro del header TCP.",
+    "Primero se calcula el checksum a ciegas, después se genera el header y al final se descartan los datos de la aplicación.",
+    "Primero se envía el segmento a la red, luego se calcula el checksum y el destino se encarga de armar el header.",
+    "Se calcula el checksum utilizando únicamente las direcciones MAC antes de que existan el header o los datos."
+  ],
+  "answer": 1,
+  "explanation": "El orden es estricto y crucial: primero se debe estructurar todo el encabezado TCP, ya que este campo es parte del cálculo. Con el header listo y los datos, se calcula el checksum y ese resultado matemático se guarda en el espacio reservado dentro del propio header TCP, consolidando el segmento (Header + Datos)."
+},
 
 {
 question:"¿Qué evento histórico impulsó indirectamente la creación de ARPA?",
