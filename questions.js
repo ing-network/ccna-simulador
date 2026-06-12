@@ -554,1060 +554,565 @@ tema11:[
 ],
 
 tema12:[
-
 {
-question:"¿Qué característica define mejor una red Peer-to-Peer?",
-
-options:[
-
-"Existe un servidor central",
-
-"Todos los dispositivos pueden actuar como cliente o servidor",
-
-"Solo los switches comparten recursos",
-
-"Necesita Active Directory"
-
-],
-
-answer:1,
-
-explanation:"En una red Peer-to-Peer no existe un servidor centralizado. Todos los dispositivos pueden compartir recursos o solicitarlos dependiendo de la situación. Un mismo equipo puede actuar como servidor al compartir archivos y luego como cliente al acceder a recursos de otro dispositivo. Esto hace que P2P sea simple y económica, pero menos segura y menos escalable."
-
+  "question": "¿Cuál describe correctamente una red Peer-to-Peer (P2P)?",
+  "options": [
+    "Una red donde existe un servidor central que administra todos los recursos.",
+    "Una red donde todos los dispositivos pueden compartir recursos directamente y no existe un servidor central.",
+    "Una red que requiere obligatoriamente un router para funcionar.",
+    "Una red donde únicamente un dispositivo puede actuar como servidor."
+  ],
+  "answer": 1,
+  "explanation": "Una red Peer-to-Peer (P2P) es aquella donde no existe un servidor central y todos los dispositivos pueden compartir recursos directamente entre sí."
 },
 
 {
-question:"¿Por qué una red P2P suele ser menos segura?",
-
-options:[
-
-"Porque usa Ethernet",
-
-"Porque no tiene administración centralizada",
-
-"Porque utiliza switches",
-
-"Porque usa Wi-Fi"
-
-],
-
-answer:1,
-
-explanation:"Las redes P2P no poseen administración centralizada, lo que dificulta controlar permisos, usuarios y políticas de seguridad. Cada dispositivo administra sus propios recursos, aumentando el riesgo de accesos no autorizados."
-
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente una red Peer-to-Peer (P2P)? (Seleccione cuatro opciones)",
+  "options": [
+    "Los dispositivos pueden actuar como cliente o servidor dependiendo del recurso utilizado.",
+    "Todas las computadoras tienen el mismo rol en la red.",
+    "Requiere un servidor central para administrar usuarios y recursos.",
+    "Generalmente es más fácil de implementar y de menor costo.",
+    "La administración no está centralizada, por lo que suele ser menos segura.",
+    "La presencia de un switch convierte automáticamente la red en cliente-servidor."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "En una red P2P todos los dispositivos tienen el mismo rol y pueden actuar como cliente o servidor según la situación. Son redes simples y económicas, pero al no existir administración centralizada suelen ofrecer menor seguridad."
 },
 
 {
-question:"Aunque exista un switch en una red P2P, ¿por qué sigue siendo Peer-to-Peer?",
+  "question": "¿Qué efecto tiene la presencia de un switch sobre el modelo Peer-to-Peer (P2P)?",
+  "options": [
+    "Convierte automáticamente la red en cliente-servidor.",
+    "Elimina la necesidad de compartir recursos entre hosts.",
+    "No cambia el modelo P2P, ya que el switch solo actúa como dispositivo intermediario.",
+    "Hace que uno de los hosts se convierta en servidor central."
+  ],
+  "answer": 2,
+  "explanation": "La presencia de un switch no modifica el modelo de red. Un switch es únicamente un dispositivo intermediario de Capa 2; si no existe un servidor central, la red continúa siendo Peer-to-Peer."
+},
 
-options:[
 
-"Porque el switch funciona como servidor",
 
-"Porque el switch solo interconecta dispositivos",
+{
+  "question": "¿Cuáles de las siguientes características corresponden al modelo Cliente-Servidor? (Seleccione cuatro opciones)",
+  "options": [
+    "Los servidores proveen servicios o información a los clientes.",
+    "Todos los dispositivos tienen el mismo rol en la red.",
+    "Ofrece mayor seguridad y escalabilidad.",
+    "Los servidores suelen tener mayor memoria, almacenamiento y procesamiento.",
+    "No existe administración centralizada.",
+    "Es generalmente más costoso y requiere mayor conocimiento técnico."
+  ],
+  "answer": [0,2,3,5],
+  "explanation": "El modelo Cliente-Servidor utiliza servidores dedicados para ofrecer servicios a los clientes. Generalmente proporciona mayor seguridad y escalabilidad, aunque suele requerir más recursos y conocimientos técnicos."
+},
 
-"Porque Ethernet obliga a usar P2P",
 
-"Porque el switch administra usuarios"
+{
+  "question": "¿Cuál es la diferencia principal entre una red Peer-to-Peer (P2P) y una red Cliente-Servidor?",
+  "options": [
+    "Las redes P2P utilizan direcciones MAC, mientras que las Cliente-Servidor utilizan direcciones IP.",
+    "En una red P2P no existe un servidor central y los dispositivos pueden actuar como cliente o servidor; en una red Cliente-Servidor existen servidores dedicados que proveen servicios a los clientes.",
+    "Las redes Cliente-Servidor son exclusivamente inalámbricas, mientras que las P2P son cableadas.",
+    "Las redes P2P requieren servidores de alto rendimiento y las Cliente-Servidor no."
+  ],
+  "answer": 1,
+  "explanation": "En una red Peer-to-Peer (P2P) no existe un servidor central y los dispositivos pueden compartir recursos directamente, actuando como cliente o servidor según sea necesario. En una red Cliente-Servidor existen servidores dedicados que proporcionan servicios y recursos a los clientes."
+},
 
-],
 
-answer:1,
-
-explanation:"El switch únicamente actúa como intermediario para enviar tramas entre dispositivos. No proporciona administración centralizada ni cambia el modelo lógico de la red. Por eso la red sigue siendo Peer-to-Peer."
-
+{
+  "question": "¿Cuál describe correctamente una red LAN (Local Area Network)?",
+  "options": [
+    "Una red que conecta dispositivos a nivel mundial utilizando múltiples ISP.",
+    "Una red diseñada para comunicaciones a largas distancias entre países.",
+    "Una red de área local utilizada para comunicaciones a distancias cortas dentro de una casa, edificio o campus.",
+    "Una red utilizada exclusivamente por proveedores de Internet."
+  ],
+  "answer": 2,
+  "explanation": "Una LAN (Local Area Network) permite la comunicación a distancias cortas, normalmente dentro de una casa, edificio o campus, y suele ser administrada por una persona o un departamento de IT."
 },
 
 {
-question:"¿Qué característica pertenece a una red Cliente-Servidor?",
-
-options:[
-
-"No existe servidor",
-
-"Todos tienen el mismo rol",
-
-"Existe administración centralizada",
-
-"Todos comparten recursos libremente"
-
-],
-
-answer:2,
-
-explanation:"En cliente-servidor existen servidores dedicados que proporcionan servicios y administración centralizada. Esto mejora seguridad, escalabilidad y control de usuarios."
-
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente a Ethernet? (Seleccione cuatro opciones)",
+  "options": [
+    "Utiliza el estándar IEEE 802.3.",
+    "Los datos se transmiten en forma de tramas (frames).",
+    "Se conecta comúnmente mediante switches.",
+    "Utiliza cables UTP con conectores RJ45.",
+    "Funciona mediante el uso de tokens para transmitir.",
+    "Fue diseñada para operar exclusivamente en topologías de anillo."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "Ethernet es la tecnología LAN más utilizada. Está definida por el estándar IEEE 802.3, transmite datos en tramas, utiliza cables UTP/RJ45 y normalmente emplea switches para interconectar dispositivos."
 },
 
 {
-question:"¿Por qué cliente-servidor es más escalable que P2P?",
+  "question": "¿Cuál es una diferencia importante entre Ethernet y Token Ring?",
+  "options": [
+    "Ethernet utiliza CSMA/CD para el acceso al medio, mientras que Token Ring utiliza un token que otorga permiso para transmitir.",
+    "Ethernet utiliza tokens y Token Ring utiliza CSMA/CD.",
+    "Ethernet funciona exclusivamente en topologías de anillo y Token Ring en estrella.",
+    "Token Ring es el estándar IEEE 802.3 y Ethernet es una tecnología propietaria."
+  ],
+  "answer": 0,
+  "explanation": "Ethernet utiliza el método de acceso CSMA/CD, mientras que Token Ring controlaba el acceso mediante un token. Solo el dispositivo que poseía el token podía transmitir."
+},
 
-options:[
 
-"Porque tiene menos dispositivos",
+{
+  "question": "¿Cuál describe correctamente una WLAN (Wireless LAN)?",
+  "options": [
+    "Una red inalámbrica de área local que utiliza Wi-Fi y está basada en el estándar IEEE 802.11.",
+    "Una red cableada que utiliza Ethernet IEEE 802.3.",
+    "Una red de área amplia utilizada por proveedores de Internet.",
+    "Una red basada exclusivamente en fibra óptica."
+  ],
+  "answer": 0,
+  "explanation": "Una WLAN (Wireless LAN) es una red de área local inalámbrica que utiliza tecnologías Wi-Fi y se basa en los estándares IEEE 802.11."
+},
 
-"Porque centraliza servicios y administración",
 
-"Porque usa Token Ring",
+{
+  "question": "¿Cuál describe correctamente una WAN (Wide Area Network)?",
+  "options": [
+    "Una red de área amplia que permite la comunicación a grandes distancias e interconecta LAN y WLAN.",
+    "Una red inalámbrica de corto alcance basada en IEEE 802.11.",
+    "Una red local utilizada dentro de una casa o edificio.",
+    "Una red que utiliza exclusivamente Ethernet IEEE 802.3."
+  ],
+  "answer": 0,
+  "explanation": "Una WAN (Wide Area Network) permite la comunicación a grandes distancias e interconecta múltiples redes LAN y WLAN. Los ISP suelen proporcionar tecnologías WAN para conectar estas redes."
+},
 
-"Porque elimina routers"
 
-],
+{
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente a las redes WAN? (Seleccione cuatro opciones)",
+  "options": [
+    "Permiten la comunicación a grandes distancias.",
+    "Interconectan redes LAN y WLAN.",
+    "Los ISP ofrecen tecnologías WAN a sus clientes.",
+    "Internet es un ejemplo de WAN.",
+    "Están limitadas a un solo edificio o campus.",
+    "Utilizan exclusivamente el estándar IEEE 802.11."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "Las WAN permiten la comunicación a grandes distancias e interconectan múltiples redes. Los ISP proporcionan servicios WAN y el ejemplo más grande de una WAN es Internet."
+},
 
-answer:1,
 
-explanation:"Cliente-servidor permite administrar usuarios, recursos y servicios desde sistemas centralizados. Esto facilita agregar más usuarios y dispositivos sin perder control o rendimiento."
 
+
+{
+  "question": "¿Qué significa la tolerancia a fallas en una red?",
+  "options": [
+    "La capacidad de la red para continuar operando aunque falle un dispositivo o enlace.",
+    "La capacidad de aumentar automáticamente el ancho de banda.",
+    "La capacidad de convertir una LAN en una WAN.",
+    "La capacidad de asignar direcciones IP automáticamente."
+  ],
+  "answer": 0,
+  "explanation": "La tolerancia a fallas es la capacidad de una red para seguir funcionando aun cuando ocurra una falla en un dispositivo o enlace de comunicación."
 },
 
 {
-question:"Una empresa crece de 20 a 800 usuarios y la red sigue funcionando eficientemente. ¿Qué característica demuestra?",
-
-options:[
-
-"QoS",
-
-"Tolerancia a fallas",
-
-"Escalabilidad",
-
-"Latencia"
-
-],
-
-answer:2,
-
-explanation:"Escalabilidad significa que la red puede crecer agregando usuarios, dispositivos o servicios sin afectar significativamente el rendimiento."
-
+  "question": "¿Cuáles son mecanismos utilizados para proporcionar tolerancia a fallas en una red? (Seleccione dos opciones)",
+  "options": [
+    "Redundancia.",
+    "Rutas alternativas.",
+    "Uso exclusivo de una única ruta de comunicación.",
+    "Eliminación de dispositivos de respaldo."
+  ],
+  "answer": [0,1],
+  "explanation": "La tolerancia a fallas se logra mediante redundancia y rutas alternativas, permitiendo que el tráfico tome otro camino si ocurre una falla."
 },
 
 {
-question:"Una red continúa funcionando aunque falle un enlace principal gracias a rutas alternativas. ¿Qué característica describe mejor el escenario?",
-
-options:[
-
-"Escalabilidad",
-
-"QoS",
-
-"Tolerancia a fallas",
-
-"Congestión"
-
-],
-
-answer:2,
-
-explanation:"La tolerancia a fallas permite que la red continúe operando incluso cuando ocurre una falla física o lógica. Esto normalmente se logra usando redundancia y rutas alternativas."
-
+  "question": "¿Qué describe correctamente el concepto de redundancia en una red?",
+  "options": [
+    "Tener componentes adicionales o duplicados como respaldo para mantener la disponibilidad de la red.",
+    "Eliminar dispositivos repetidos para reducir costos y consumo de ancho de banda.",
+    "Utilizar una única ruta de comunicación para simplificar la red.",
+    "Asignar direcciones IP automáticamente a todos los dispositivos."
+  ],
+  "answer": 0,
+  "explanation": "La redundancia consiste en disponer de componentes adicionales o duplicados, como switches, cables o enlaces a Internet, para mantener el funcionamiento de la red ante una falla."
 },
+
+{
+  "question": "¿Qué describe correctamente la escalabilidad en una red?",
+  "options": [
+    "La capacidad de una red para crecer agregando usuarios, dispositivos o sitios, manteniendo o mejorando el rendimiento sin rediseñarla completamente.",
+    "La capacidad de una red para eliminar dispositivos redundantes y reducir su tamaño.",
+    "La capacidad de una red para funcionar únicamente con un número fijo de usuarios.",
+    "La capacidad de una red para cambiar automáticamente las direcciones IP de todos los hosts."
+  ],
+  "answer": 0,
+  "explanation": "La escalabilidad es la capacidad de una red para crecer agregando usuarios, dispositivos o sitios sin necesidad de rediseñarla completamente y manteniendo un rendimiento adecuado."
+},
+
+{
+  "question": "¿Cuál de las siguientes afirmaciones describe correctamente a los bits en redes?",
+  "options": [
+    "El bit es la unidad mínima de información y la velocidad de transmisión se mide en bits por segundo (bps).",
+    "Los bits se utilizan únicamente para direccionamiento IP.",
+    "Un bit equivale a 8 bytes y se mide en MHz.",
+    "Los bits solo existen en redes inalámbricas."
+  ],
+  "answer": 0,
+  "explanation": "El bit es la unidad mínima de información digital representada por 0 o 1. La velocidad de transmisión de una red se mide en bits por segundo (bps), como 100 Mbps o 1 Gbps."
+},
+
+
+{
+  "question": "¿Qué describe correctamente el concepto de ancho de banda en una red?",
+  "options": [
+    "El tiempo que tarda un paquete en llegar a su destino.",
+    "La capacidad máxima de un enlace para transmitir datos durante un intervalo de tiempo, medida en bps.",
+    "La cantidad de dispositivos conectados a la red.",
+    "La variación en el tiempo de llegada de los paquetes."
+  ],
+  "answer": 1,
+  "explanation": "El ancho de banda representa la capacidad máxima de transmisión de un enlace y se mide en bits por segundo (bps). Una analogía común es el grosor de una tubería: más ancho permite transportar más datos simultáneamente."
+},
+
+{
+  "question": "¿Qué es la congestión en una red?",
+  "options": [
+    "La capacidad máxima de transmisión de un enlace.",
+    "La pérdida permanente de conectividad entre dos dispositivos.",
+    "Una situación en la que existe más tráfico del que la red puede manejar.",
+    "Un mecanismo utilizado para priorizar tráfico."
+  ],
+  "answer": 2,
+  "explanation": "La congestión ocurre cuando el tráfico supera la capacidad de la red, generando lentitud, retrasos y posible pérdida de paquetes."
+},
+
+{
+  "question": "¿Cuáles de las siguientes afirmaciones sobre latencia, jitter y pérdida de paquetes son correctas? (Seleccione cuatro opciones)",
+  "options": [
+    "La latencia es el tiempo que tarda un paquete en viajar por la red.",
+    "El jitter es la variación en el tiempo de llegada de los paquetes.",
+    "La pérdida de paquetes ocurre cuando algunos paquetes no llegan a su destino.",
+    "La voz y el video son sensibles al tiempo y se ven afectados por estos problemas.",
+    "El jitter mide el ancho de banda disponible.",
+    "La pérdida de paquetes aumenta automáticamente el ancho de banda."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "La latencia mide el retraso, el jitter mide la variación del retraso y la pérdida de paquetes indica que algunos paquetes no llegan. Estos factores afectan especialmente a aplicaciones sensibles al tiempo como voz y video."
+},
+
+
+{
+  "question": "¿Cuál es la función principal de QoS (Quality of Service)?",
+  "options": [
+    "Asignar direcciones IP automáticamente.",
+    "Priorizar tráfico importante, como voz y video, especialmente durante periodos de congestión.",
+    "Convertir redes LAN en WAN.",
+    "Incrementar físicamente el ancho de banda del enlace."
+  ],
+  "answer": 1,
+  "explanation": "QoS permite priorizar tráfico crítico, como voz y video, reduciendo el impacto de la latencia, jitter y pérdida de paquetes durante la congestión."
+},
+
+
+{
+  "question": "¿Por qué QoS es importante para las aplicaciones VoIP?",
+  "options": [
+    "Porque convierte automáticamente voz analógica en digital.",
+    "Porque incrementa el ancho de banda físico del enlace.",
+    "Porque da mayor prioridad a los paquetes de voz, manteniendo una comunicación clara incluso cuando la red está congestionada.",
+    "Porque elimina la necesidad de utilizar protocolos IP."
+  ],
+  "answer": 2,
+  "explanation": "Las aplicaciones VoIP son sensibles al tiempo. QoS prioriza los paquetes de voz para reducir latencia, jitter y pérdida de paquetes, mejorando la calidad de la llamada."
+},
+
+
+{
+  "question": "¿Cuál es el objetivo principal de la seguridad en redes?",
+  "options": [
+    "Incrementar el ancho de banda disponible.",
+    "Proteger la red contra accesos no autorizados, ataques y pérdida de información.",
+    "Convertir redes LAN en WAN.",
+    "Asignar direcciones IP automáticamente."
+  ],
+  "answer": 1,
+  "explanation": "La seguridad en redes busca proteger los recursos y datos contra accesos no autorizados, ataques y pérdida de información."
+},
+
+{
+  "question": "¿Qué describe correctamente el control de acceso en una red?",
+  "options": [
+    "Permite que cualquier usuario utilice los recursos de la red.",
+    "Verifica la velocidad de transmisión del enlace.",
+    "Garantiza que solo usuarios autorizados puedan acceder a los recursos.",
+    "Aumenta automáticamente el ancho de banda."
+  ],
+  "answer": 2,
+  "explanation": "El control de acceso restringe el uso de los recursos de red únicamente a usuarios autorizados."
+},
+
+{
+  "question": "¿Cuál es la diferencia principal entre autenticación y encriptación?",
+  "options": [
+    "La autenticación verifica la identidad del usuario, mientras que la encriptación codifica los datos para protegerlos.",
+    "La autenticación cifra los datos y la encriptación verifica usuarios.",
+    "Ambas realizan exactamente la misma función.",
+    "La autenticación incrementa el ancho de banda y la encriptación reduce la latencia."
+  ],
+  "answer": 0,
+  "explanation": "La autenticación verifica la identidad de usuarios o dispositivos, mientras que la encriptación transforma los datos en un formato codificado para proteger su confidencialidad."
+},
+
+
+{
+  "question": "¿Cuáles de los siguientes son dispositivos o tecnologías de seguridad de red? (Seleccione tres opciones)",
+  "options": [
+    "Firewall",
+    "VPN",
+    "IDS/IPS",
+    "DHCP",
+    "ARP",
+    "FTP"
+  ],
+  "answer": [0,1,2],
+  "explanation": "Firewall, IDS/IPS y VPN son tecnologías utilizadas para proteger redes y datos frente a amenazas y accesos no autorizados."
+},
+
+
+{
+  "question": "¿Cuáles son características de una red confiable (Reliable Network)? (Seleccione cuatro opciones)",
+  "options": [
+    "Tolerancia a fallas.",
+    "Escalabilidad.",
+    "Calidad de Servicio (QoS).",
+    "Seguridad.",
+    "Uso obligatorio de Token Ring.",
+    "Dependencia de una única ruta de comunicación."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "Una red moderna y confiable debe ser tolerante a fallas, escalable, capaz de ofrecer QoS y proporcionar mecanismos de seguridad."
+},
+
+
+
+
+
+
+
+
+
+
+
 
 {
 question:"¿Qué relación existe entre redundancia y tolerancia a fallas?",
-
 options:[
-
 "Son tecnologías incompatibles",
-
 "La redundancia ayuda a lograr tolerancia a fallas",
-
 "La tolerancia elimina redundancia",
-
 "No tienen relación"
-
 ],
-
 answer:1,
-
 explanation:"La redundancia consiste en tener dispositivos, enlaces o rutas adicionales. Gracias a ello, si un componente falla, otro puede asumir la operación y mantener el servicio funcionando."
-
 },
 
 {
-question:"¿Cuál es el propósito principal de QoS?",
-
+question:"¿Qué tecnología pertenece normalmente a WAN?",
 options:[
-
-"Eliminar switches",
-
-"Priorizar tráfico importante",
-
-"Reducir número de usuarios",
-
-"Crear VLAN"
-
-],
-
-answer:1,
-
-explanation:"QoS (Quality of Service) permite priorizar tráfico sensible al tiempo como voz y video para reducir problemas de latencia, jitter y pérdida de paquetes."
-
-},
-
-{
-question:"¿Por qué VoIP es sensible al tiempo?",
-
-options:[
-
-"Porque usa demasiados bits",
-
-"Porque necesita llegar rápido y ordenado",
-
-"Porque utiliza circuit switching",
-
-"Porque requiere Token Ring"
-
-],
-
-answer:1,
-
-explanation:"La voz en tiempo real necesita que los paquetes lleguen rápidamente y en orden correcto. Si existen retrasos o variaciones, la conversación se escucha cortada, robotizada o con eco."
-
-},
-
-{
-question:"¿Qué problema describe variaciones en el tiempo de llegada de paquetes?",
-
-options:[
-
-"Latencia",
-
-"Jitter",
-
-"Escalabilidad",
-
-"Redundancia"
-
-],
-
-answer:1,
-
-explanation:"Jitter ocurre cuando los paquetes llegan con tiempos variables. En VoIP esto provoca audio entrecortado o robotizado."
-
-},
-
-{
-question:"¿Qué problema representa el tiempo total que tarda un paquete en viajar?",
-
-options:[
-
-"QoS",
-
-"Jitter",
-
-"Latencia",
-
-"Redundancia"
-
-],
-
-answer:2,
-
-explanation:"Latencia es el tiempo que tarda un paquete en viajar desde origen hasta destino. Altas latencias afectan especialmente aplicaciones en tiempo real."
-
-},
-
-{
-question:"¿Qué ocurre durante congestión en la red?",
-
-options:[
-
-"La red tiene poco tráfico",
-
-"Existe más tráfico del que la red puede manejar",
-
-"QoS desaparece",
-
-"Se eliminan routers"
-
-],
-
-answer:1,
-
-explanation:"La congestión ocurre cuando existe más tráfico del que la infraestructura puede manejar. Esto produce retrasos, lentitud y pérdida de paquetes."
-
-},
-
-{
-question:"¿Qué tecnología utiliza Ethernet?",
-
-options:[
-
-"IEEE 802.11",
-
-"IEEE 802.3",
-
-"IEEE 802.1Q",
-
-"IEEE 802.5"
-
-],
-
-answer:1,
-
-explanation:"Ethernet utiliza el estándar IEEE 802.3 para redes cableadas LAN."
-
-},
-
-{
-question:"¿Qué dispositivo se usa normalmente en Ethernet para conectar hosts?",
-
-options:[
-
-"Firewall",
-
-"Switch",
-
-"IDS",
-
-"VPN"
-
-],
-
-answer:1,
-
-explanation:"Los switches son fundamentales en Ethernet porque permiten interconectar dispositivos dentro de una LAN."
-
-},
-
-{
-question:"¿Qué método utilizaba Token Ring para transmitir?",
-
-options:[
-
-"CSMA/CD",
-
-"Token",
-
-"Broadcast",
-
-"QoS"
-
-],
-
-answer:1,
-
-explanation:"Token Ring utilizaba un token o permiso de transmisión. Solo el dispositivo que poseía el token podía transmitir datos."
-
-},
-
-{
-question:"¿Cuál es una característica de WLAN?",
-
-options:[
-
-"Usa únicamente cable UTP",
-
-"Utiliza IEEE 802.11",
-
-"Usa Token Ring",
-
-"Necesita PPP"
-
-],
-
-answer:1,
-
-explanation:"WLAN utiliza Wi-Fi y el estándar IEEE 802.11 para comunicación inalámbrica."
-
-},
-
-{
-question:"¿Cuál tecnología pertenece normalmente a WAN?",
-
-options:[
-
 "MPLS",
-
 "Ethernet",
-
 "Token Ring",
-
 "CSMA/CD"
-
 ],
-
 answer:0,
-
 explanation:"MPLS es una tecnología WAN utilizada para interconectar redes a grandes distancias."
-
-},
-
-{
-question:"¿Qué característica define mejor una WAN?",
-
-options:[
-
-"Comunicación a corta distancia",
-
-"Conecta únicamente switches",
-
-"Interconecta LAN y WLAN a grandes distancias",
-
-"Solo funciona con Wi-Fi"
-
-],
-
-answer:2,
-
-explanation:"WAN permite comunicación entre redes geográficamente separadas como sucursales, ciudades o países."
-
 },
 
 {
 question:"¿Qué significa bps?",
-
 options:[
-
 "Bytes per second",
-
 "Bits per switch",
-
 "Bits por segundo",
-
 "Backbone packet service"
-
 ],
-
 answer:2,
-
 explanation:"bps significa bits por segundo y mide la cantidad de bits transmitidos en un segundo."
-
 },
 
 {
 question:"¿Qué representa un bit?",
-
 options:[
-
 "Unidad máxima de almacenamiento",
-
 "Unidad mínima de información",
-
 "Tipo de paquete",
-
 "Velocidad de transmisión"
-
 ],
-
 answer:1,
-
 explanation:"El bit es la unidad mínima de información digital y puede representar un 0 o un 1."
-
-},
-
-{
-question:"Una llamada VoIP presenta eco y retrasos. ¿Qué problema probablemente existe?",
-
-options:[
-
-"Escalabilidad",
-
-"Latencia",
-
-"Redundancia",
-
-"Token Ring"
-
-],
-
-answer:1,
-
-explanation:"La latencia alta provoca retrasos perceptibles en aplicaciones en tiempo real como VoIP."
-
-},
-
-{
-question:"Una red tiene dos enlaces redundantes y uno falla sin interrumpir el servicio. ¿Qué ventaja demuestra?",
-
-options:[
-
-"QoS",
-
-"Tolerancia a fallas",
-
-"Jitter",
-
-"Congestión"
-
-],
-
-answer:1,
-
-explanation:"La tolerancia a fallas permite mantener el servicio usando enlaces alternativos cuando ocurre una falla."
-
-},
-
-{
-question:"¿Cuál es una ventaja importante de QoS?",
-
-options:[
-
-"Eliminar tráfico",
-
-"Priorizar voz y video",
-
-"Reducir switches",
-
-"Eliminar WAN"
-
-],
-
-answer:1,
-
-explanation:"QoS prioriza tráfico sensible al tiempo para mejorar calidad de llamadas y videoconferencias."
-
-},
-
-{
-question:"¿Qué dispositivo ayuda a proteger la red contra accesos no autorizados?",
-
-options:[
-
-"Switch",
-
-"Firewall",
-
-"Hub",
-
-"Token"
-
-],
-
-answer:1,
-
-explanation:"Los firewalls filtran tráfico y ayudan a proteger redes contra accesos no autorizados."
-
-},
-
-{
-question:"¿Cuál es función de IDS/IPS?",
-
-options:[
-
-"Crear VLAN",
-
-"Detectar o prevenir ataques",
-
-"Convertir bits",
-
-"Asignar IP"
-
-],
-
-answer:1,
-
-explanation:"IDS detecta ataques y IPS puede bloquearlos automáticamente."
-
-},
-
-{
-question:"¿Qué hace una VPN?",
-
-options:[
-
-"Elimina Internet",
-
-"Protege comunicaciones mediante túneles seguros",
-
-"Reemplaza switches",
-
-"Convierte WLAN en LAN"
-
-],
-
-answer:1,
-
-explanation:"VPN crea túneles cifrados para proteger información transmitida a través de redes públicas."
-
-},
-
-{
-question:"¿Qué característica describe mejor una red confiable?",
-
-options:[
-
-"Solo rápida",
-
-"Solo segura",
-
-"Tolerante a fallas, escalable y segura",
-
-"Solo inalámbrica"
-
-],
-
-answer:2,
-
-explanation:"Una red moderna confiable debe ser segura, escalable, tolerante a fallas y capaz de manejar tráfico crítico mediante QoS."
-
-},
-
-{
-question:"¿Qué problema ocurre cuando algunos paquetes nunca llegan al destino?",
-
-options:[
-
-"Jitter",
-
-"Latencia",
-
-"Pérdida de paquetes",
-
-"Escalabilidad"
-
-],
-
-answer:2,
-
-explanation:"La pérdida de paquetes ocurre cuando algunos paquetes desaparecen durante la transmisión, afectando aplicaciones críticas."
-
-},
-
-{
-question:"¿Qué tecnología WAN es considerada obsoleta pero fue muy utilizada?",
-
-options:[
-
-"Frame Relay",
-
-"Ethernet",
-
-"Wi-Fi",
-
-"CSMA/CD"
-
-],
-
-answer:0,
-
-explanation:"Frame Relay fue ampliamente utilizada en WAN antes de tecnologías modernas como MPLS."
-
-},
-
-{
-question:"¿Qué estándar utiliza Ethernet?",
-
-options:[
-
-"IEEE 802.11",
-
-"IEEE 802.3",
-
-"IEEE 802.1Q",
-
-"IEEE 802.5"
-
-],
-
-answer:1,
-
-explanation:"Ethernet utiliza el estándar IEEE 802.3 para redes LAN cableadas. Este estándar define aspectos como transmisión de datos, formato de tramas y acceso al medio. IEEE 802.11 pertenece a Wi-Fi y no a Ethernet."
-
 },
 
 {
 question:"¿Qué método de acceso al medio utiliza Ethernet tradicionalmente?",
-
 options:[
-
 "Token Passing",
-
 "CSMA/CD",
-
 "PPP",
-
 "MPLS"
-
 ],
-
 answer:1,
-
 explanation:"Ethernet tradicional utilizaba CSMA/CD (Carrier Sense Multiple Access with Collision Detection). Los dispositivos verificaban si el medio estaba libre antes de transmitir y detectaban colisiones cuando dos equipos transmitían simultáneamente."
-
 },
 
 {
 question:"¿Qué significa CSMA/CD?",
-
 options:[
-
 "Carrier Sense Multiple Access with Collision Detection",
-
 "Central Switch Management Access Data",
-
 "Collision Switch Multiple Access Device",
-
 "Carrier Signal Managed Access Detection"
-
 ],
-
 answer:0,
-
 explanation:"CSMA/CD significa Carrier Sense Multiple Access with Collision Detection. Era utilizado principalmente en Ethernet half-duplex para controlar acceso al medio y manejar colisiones."
-
 },
 
 {
 question:"¿Por qué CSMA/CD perdió importancia en redes modernas?",
-
 options:[
-
 "Porque Ethernet desapareció",
-
 "Porque los switches modernos reducen colisiones",
-
 "Porque Wi-Fi reemplazó LAN",
-
 "Porque MPLS lo eliminó"
-
 ],
-
 answer:1,
-
 explanation:"Los switches modernos crean dominios de colisión separados y utilizan full-duplex, eliminando prácticamente las colisiones. Por eso CSMA/CD ya casi no se utiliza en redes Ethernet modernas."
-
 },
 
 {
 question:"¿Cuál tecnología WAN es utilizada ampliamente por proveedores para transportar tráfico empresarial?",
-
 options:[
-
 "MPLS",
-
 "Token Ring",
-
 "CSMA/CD",
-
 "UTP"
-
 ],
-
 answer:0,
-
 explanation:"MPLS (Multiprotocol Label Switching) es una tecnología WAN muy utilizada por proveedores de servicios para transportar tráfico empresarial con eficiencia y priorización."
-
 },
 
 {
 question:"¿Cuál tecnología WAN es considerada antigua pero fue muy utilizada antes de MPLS?",
-
 options:[
-
 "Ethernet",
-
 "Frame Relay",
-
 "Wi-Fi",
-
 "Token Ring"
-
 ],
-
 answer:1,
-
 explanation:"Frame Relay fue una tecnología WAN ampliamente utilizada antes de la popularización de MPLS. Actualmente es considerada obsoleta."
-
 },
 
 {
 question:"¿Qué protocolo WAN se utiliza comúnmente para conexiones punto a punto?",
-
 options:[
-
 "PPP",
-
 "IDS",
-
 "802.11",
-
 "CSMA/CD"
-
 ],
-
 answer:0,
-
 explanation:"PPP (Point-to-Point Protocol) se utiliza para conexiones WAN punto a punto y proporciona autenticación y encapsulación."
-
 },
 
 {
 question:"¿Qué tecnología WAN utilizaba celdas pequeñas de tamaño fijo para transmitir información?",
-
 options:[
-
 "ATM",
-
 "MPLS",
-
 "Ethernet",
-
 "Token Ring"
-
 ],
-
 answer:0,
-
 explanation:"ATM (Asynchronous Transfer Mode) transmitía información usando pequeñas celdas de tamaño fijo, buscando mejorar eficiencia y calidad de servicio."
-
-},
-
-{
-question:"¿Cuál característica describe mejor una red confiable?",
-
-options:[
-
-"Solo alta velocidad",
-
-"Solo redundancia",
-
-"Escalabilidad, seguridad, QoS y tolerancia a fallas",
-
-"Solo Wi-Fi"
-
-],
-
-answer:2,
-
-explanation:"Una red confiable moderna debe integrar múltiples características: seguridad para proteger datos, QoS para priorizar tráfico crítico, escalabilidad para crecer sin degradación y tolerancia a fallas para mantener operación continua."
-
 },
 
 {
 question:"Una empresa implementa enlaces redundantes, QoS para VoIP y firewalls perimetrales. ¿Qué objetivo principal busca?",
-
 options:[
-
 "Reducir switches",
-
 "Construir una red confiable",
-
 "Eliminar WAN",
-
 "Usar únicamente WLAN"
-
 ],
-
 answer:1,
-
 explanation:"La combinación de redundancia, QoS y seguridad forma parte del diseño de una red confiable capaz de soportar fallas, priorizar tráfico crítico y proteger información."
-
 },
 
 {
 question:"¿Cuáles son dispositivos o tecnologías de seguridad? (Elige 4)",
-
 options:[
-
 "Firewall",
-
 "IDS",
-
 "IPS",
-
 "VPN",
-
 "CSMA/CD"
-
 ],
-
 answer:[0,1,2,3],
-
 multiple:true,
-
 explanation:"Firewall, IDS, IPS y VPN son tecnologías utilizadas para proteger redes. Firewall filtra tráfico, IDS detecta ataques, IPS puede prevenirlos y VPN protege comunicaciones mediante túneles cifrados."
-
 },
 
 {
 question:"¿Cuál es diferencia principal entre IDS e IPS?",
-
 options:[
-
 "IDS detecta y IPS puede bloquear ataques",
-
 "IPS detecta y IDS elimina routers",
-
 "IDS reemplaza firewall",
-
 "IPS funciona únicamente en WLAN"
-
 ],
-
 answer:0,
-
 explanation:"IDS (Intrusion Detection System) detecta actividades sospechosas y genera alertas. IPS (Intrusion Prevention System) además puede actuar automáticamente para bloquear ataques."
-
-},
-
-{
-question:"¿Qué ventaja ofrece una VPN?",
-
-options:[
-
-"Eliminar QoS",
-
-"Crear túneles seguros sobre redes públicas",
-
-"Eliminar necesidad de routers",
-
-"Reemplazar Ethernet"
-
-],
-
-answer:1,
-
-explanation:"VPN permite transmitir información de forma segura usando túneles cifrados sobre redes públicas como Internet."
-
-},
-
-{
-question:"¿Qué escenario representa mejor escalabilidad?",
-
-options:[
-
-"La red soporta 500 nuevos usuarios sin degradación importante",
-
-"Un enlace falla y existe respaldo",
-
-"Los paquetes llegan desordenados",
-
-"Existe pérdida de paquetes"
-
-],
-
-answer:0,
-
-explanation:"Escalabilidad significa que la red puede crecer agregando usuarios, dispositivos o servicios manteniendo rendimiento aceptable."
-
-},
-
-{
-question:"¿Qué escenario representa mejor tolerancia a fallas?",
-
-options:[
-
-"La red aumenta velocidad",
-
-"QoS prioriza voz",
-
-"El tráfico toma una ruta alternativa tras una falla",
-
-"Se agregan más switches"
-
-],
-
-answer:2,
-
-explanation:"La tolerancia a fallas permite mantener el servicio activo incluso cuando ocurre una falla física o lógica gracias a redundancia y rutas alternativas."
-
 },
 
 {
 question:"¿Qué relación tiene QoS con congestión?",
-
 options:[
-
 "QoS elimina Internet",
-
 "QoS ayuda a priorizar tráfico importante durante congestión",
-
 "Congestión mejora QoS",
-
 "QoS solo funciona en LAN"
-
 ],
-
 answer:1,
-
 explanation:"Durante congestión existe más tráfico del que la red puede manejar. QoS ayuda priorizando tráfico crítico como voz y video para reducir impacto."
-
-},
-
-{
-question:"Una llamada VoIP presenta voz robotizada debido a variaciones en el tiempo de llegada de paquetes. ¿Qué problema ocurre?",
-
-options:[
-
-"Escalabilidad",
-
-"Jitter",
-
-"Redundancia",
-
-"Frame Relay"
-
-],
-
-answer:1,
-
-explanation:"Jitter ocurre cuando los paquetes llegan con tiempos variables. En VoIP esto provoca audio robotizado o entrecortado."
-
-},
-
-{
-question:"¿Qué problema afecta más directamente aplicaciones en tiempo real como videollamadas y VoIP?",
-
-options:[
-
-"Latencia",
-
-"Escalabilidad",
-
-"Topología",
-
-"Ethernet"
-
-],
-
-answer:0,
-
-explanation:"La latencia alta genera retrasos perceptibles en aplicaciones sensibles al tiempo como videollamadas y telefonía IP."
-
-},
-
-{
-question:"¿Por qué QoS es importante en telefonía IP?",
-
-options:[
-
-"Porque elimina switches",
-
-"Porque da prioridad al tráfico de voz",
-
-"Porque reduce usuarios",
-
-"Porque convierte WAN en LAN"
-
-],
-
-answer:1,
-
-explanation:"La voz necesita transmisión rápida y constante. QoS prioriza paquetes de voz para evitar retrasos, jitter y pérdida de paquetes."
-
 },
 
 {
 question:"¿Cuál tecnología está asociada principalmente con WLAN?",
-
 options:[
-
 "IEEE 802.11",
-
 "IEEE 802.3",
-
 "MPLS",
-
 "ATM"
-
 ],
-
 answer:0,
-
 explanation:"IEEE 802.11 define estándares para redes inalámbricas WLAN basadas en Wi-Fi."
 }
 
+
+
+
+
+
+
+
+
+
+
+
+  
 ],
 
 tema13:[
