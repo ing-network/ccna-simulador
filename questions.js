@@ -3,686 +3,553 @@ const temas = {
 tema11:[
 
 {
-question:"¿Cuál fue el principal objetivo de ARPA durante su creación?",
-options:[
-"Crear páginas web",
-"Desarrollar tecnología avanzada para defensa",
-"Implementar Ethernet",
-"Crear el modelo OSI"
-],
-answer:1,
-explanation:"ARPA fue creada por el Departamento de Defensa de EE.UU. para desarrollar tecnologías avanzadas relacionadas con defensa y comunicaciones para que se utilizaran en universidades y laboratorios de investigación."
+  "question": "¿Qué es un protocolo en el contexto de redes?",
+  "options": [
+    "Un método utilizado para asignar direcciones IP a los dispositivos de una red.",
+    "Un conjunto de reglas que define cómo se intercambian datos entre dispositivos en una red.",
+    "Una tabla que almacena direcciones MAC e información de puertos.",
+    "Un mecanismo utilizado exclusivamente para enrutar paquetes entre redes."
+  ],
+  "answer": 1,
+  "explanation": "Un protocolo es un conjunto de reglas y formatos que permiten a los dispositivos comunicarse e intercambiar información de manera organizada y predecible a través de una red."
+},
+
+
+{
+  "question": "¿Qué describe mejor el término Protocol Suite en redes?",
+  "options": [
+    "Un mecanismo que permite traducir automáticamente entre diferentes protocolos de red.",
+    "Un único protocolo capaz de realizar todas las funciones de comunicación de una red.",
+    "Un conjunto de protocolos que trabajan de forma coordinada para proporcionar comunicación de red.",
+    "Una colección de dispositivos de red diseñados para soportar múltiples protocolos."
+  ],
+  "answer": 2,
+  "explanation": "Un Protocol Suite es un conjunto de protocolos relacionados que trabajan en conjunto para proporcionar servicios de comunicación. Un ejemplo es la suite TCP/IP, compuesta por protocolos como IP, TCP, UDP, ICMP y ARP."
+},
+
+
+{
+  "question": "¿Cuál es la definición correcta de una red?",
+  "options": [
+    "Un conjunto de dispositivos interconectados que pueden comunicarse e intercambiar información, recursos y servicios entre ellos.",
+    "Un sistema compuesto exclusivamente por switches, routers y cables Ethernet.",
+    "Una aplicación utilizada para compartir archivos entre múltiples usuarios.",
+    "Un único dispositivo conectado a Internet mediante una dirección IP."
+  ],
+  "answer": 0,
+  "explanation": "Una red es un conjunto de dispositivos interconectados que pueden intercambiar información, compartir recursos y utilizar servicios comunes. La comunicación puede realizarse mediante medios cableados o inalámbricos."
 },
 
 {
-question:"¿Qué evento histórico impulsó indirectamente la creación de ARPA?",
-options:[
-"La caída del muro de Berlín",
-"El nacimiento de Ethernet",
-"El lanzamiento del Sputnik",
-"La creación de NSFNET"
-],
-answer:2,
-explanation:"ARPA surge en el contexto de la Guerra Fría después del lanzamiento del Sputnik soviético, para garantizar que Estados Unidos mantuviera una ventaja tecnológica insuperable y no volviera a sufrir una sorpresa estratégica. Esto impulsó el desarrollo de tecnologías avanzadas de comunicación e investigación que posteriormente darían origen a ARPANET y al Internet moderno."
+  "question": "¿Cuál fue la principal razón por la que Estados Unidos creó ARPA en 1958?",
+  "options": [
+    "La necesidad de desarrollar una red para conectar universidades y compartir recursos académicos.",
+    "La preocupación generada por el avance tecnológico soviético tras el lanzamiento del satélite Sputnik en 1957.",
+    "La aparición de las primeras computadoras personales utilizadas por el gobierno federal.",
+    "La creación del protocolo TCP/IP para las comunicaciones militares."
+  ],
+  "answer": 1,
+  "explanation": "ARPA fue creada en 1958 como respuesta al lanzamiento del satélite Sputnik por la Unión Soviética en 1957. El evento impulsó a Estados Unidos a incrementar la inversión en investigación y desarrollo tecnológico, lo que posteriormente contribuyó al desarrollo de ARPANET."
 },
 
 {
-question:"¿Cuál fue la principal contribución de Joseph Carl Licklider?",
-options:[
-"Crear IPv6",
-"Desarrollar switches",
-"Impulsar la idea de una red global de computadoras",
-"Desarrollar NAT"
-],
-answer:2,
-explanation:"Licklider fue pionero en la idea de conectar computadoras en red global."
+  "question": "¿Cuál fue el principal objetivo de la oficina IPTO (Information Processing Techniques Office) dentro de ARPA?",
+  "options": [
+    "Administrar las direcciones IP utilizadas por las redes experimentales de ARPA.",
+    "Desarrollar exclusivamente el protocolo TCP para las comunicaciones militares.",
+    "Dirigir y financiar investigaciones relacionadas con el procesamiento de información y la comunicación entre computadoras.",
+    "Fabricar los primeros routers utilizados en ARPANET."
+  ],
+  "answer": 2,
+  "explanation": "IPTO fue una oficina de ARPA dedicada a impulsar investigaciones en procesamiento de información y comunicación entre computadoras. Sus proyectos y financiamiento contribuyeron directamente al desarrollo de ARPANET."
+},
+
+
+
+{
+  "question": "¿Qué visión presentó J.C.R. Licklider al integrarse a ARPA en 1962 y que posteriormente influiría en el desarrollo de ARPANET?",
+  "options": [
+    "El desarrollo del primer switch Ethernet para conectar redes locales.",
+    "La creación de un sistema global de nombres de dominio para Internet.",
+    "La estandarización de TCP/IP como protocolo único para redes militares.",
+    "La idea de una red global de computadoras capaces de compartir información y recursos."
+  ],
+  "answer": 3,
+  "explanation": "J.C.R. Licklider propuso la idea de una red global de computadoras que permitiera compartir información y recursos entre distintos lugares. Esta visión, conocida como 'Intergalactic Computer Network', influyó significativamente en el desarrollo de ARPANET."
+},
+
+
+{
+  "question": "¿Cuál era una limitación importante del protocolo NCP utilizado inicialmente por ARPANET?",
+  "options": [
+    "No permitía la comunicación entre computadoras remotas conectadas a la misma red.",
+    "Solo funcionaba con direcciones IPv6 y redes inalámbricas.",
+    "Permitía la comunicación entre computadoras, pero todas debían pertenecer a la misma red.",
+    "Requería el uso obligatorio de TCP/IP para establecer cualquier comunicación."
+  ],
+  "answer": 2,
+  "explanation": "Inicialmente ARPANET utilizaba NCP (Network Control Protocol). Aunque permitía la comunicación entre computadoras remotas, todas debían pertenecer a la misma red, lo que limitaba la interconexión de múltiples redes independientes."
 },
 
 {
-question:"¿Qué significa IPTO?",
-options:[
-"Internet Protocol Transfer Office",
-"Information Processing Techniques Office",
-"Internal Packet Technology Office",
-"Internet Processing Technical Organization"
-],
-answer:1,
-explanation:"IPTO fue una oficina dentro de ARPA dedicada a tecnologías de comunicación entre computadoras."
+  "question": "¿Cuáles fueron los primeros 4 nodos conectados a ARPANET cuando inició operaciones en 1969?",
+  "options": [
+    "MIT, Harvard University, Stanford University y University of California Berkeley",
+    "Pentágono, NASA, ARPA y Department of Defense",
+    "UCLA, Stanford Research Institute (SRI), University of California Santa Barbara (UCSB) y University of Utah",
+    "Cisco, IBM, Xerox PARC y Bell Labs"
+  ],
+  "answer": 2,
+  "explanation": "Cuando ARPANET inició operaciones en 1969, sus primeros cuatro nodos fueron UCLA, Stanford Research Institute (SRI), University of California Santa Barbara (UCSB) y University of Utah. La conexión entre estos nodos marcó el inicio de ARPANET, considerada la precursora de Internet."
 },
 
 {
-question:"¿Cuál fue una característica importante de ARPANET?",
-options:[
-"Fue diseñada inicialmente para videojuegos",
-"Fue creada para investigación",
-"Usaba IPv6",
-"Fue creada por Cisco"
-],
-answer:1,
-explanation:"ARPANET fue creada principalmente para investigación."
+  "question": "¿Qué demostró el crecimiento de ARPANET hasta alcanzar 37 nodos conectados en 1973?",
+  "options": [
+    "Que la interconexión de computadoras a gran escala era viable y podía expandirse exitosamente.",
+    "Que TCP/IP ya había reemplazado completamente a NCP en todas las redes.",
+    "Que las direcciones IPv4 comenzaban a agotarse debido al crecimiento de Internet.",
+    "Que ARPANET había dejado de utilizar la conmutación de paquetes."
+  ],
+  "answer": 0,
+  "explanation": "Para 1973, ARPANET había crecido hasta 37 nodos conectados. Este crecimiento demostró que la interconexión de computadoras mediante redes de conmutación de paquetes era viable y escalable, sentando las bases para el desarrollo de Internet."
+},
+
+
+{
+  "question": "¿Cuál es la definición correcta de una red?",
+  "options": [
+    "Un sistema compuesto exclusivamente por routers, switches y cables Ethernet.",
+    "Un conjunto de dispositivos interconectados que pueden comunicarse e intercambiar información, recursos o servicios entre ellos.",
+    "Una aplicación diseñada para compartir archivos entre usuarios de Internet.",
+    "Un único dispositivo conectado a Internet mediante una dirección IP."
+  ],
+  "answer": 1,
+  "explanation": "Una red es un conjunto de dispositivos interconectados capaces de comunicarse e intercambiar información, recursos o servicios. La conexión puede realizarse mediante medios cableados o inalámbricos."
+},
+
+
+{
+  "question": "¿Quiénes desarrollaron la suite de protocolos TCP/IP durante la década de 1970?",
+  "options": [
+    "J. C. R. Licklider y Bob Taylor",
+    "Vinton Cerf y Robert Kahn",
+    "Bill Gates y Paul Allen",
+    "Leonard Kleinrock y Larry Roberts"
+  ],
+  "answer": 1,
+  "explanation": "TCP/IP fue desarrollado en la década de 1970 por Vinton Cerf y Robert Kahn. Esta suite de protocolos permitió la comunicación entre redes con diferentes implementaciones y tecnologías, convirtiéndose en la base del funcionamiento de Internet."
+},
+
+
+{
+  "question": "¿Qué cambio fundamental permitió la adopción de TCP/IP por ARPANET en 1983?",
+  "options": [
+    "Permitir la interconexión y comunicación entre diferentes redes, sentando las bases del Internet moderno.",
+    "Sustituir todas las direcciones IP por direcciones MAC para simplificar el enrutamiento.",
+    "Eliminar la necesidad de utilizar protocolos de transporte como TCP y UDP.",
+    "Limitar la comunicación únicamente a dispositivos conectados dentro de una misma red."
+  ],
+  "answer": 0,
+  "explanation": "Antes de 1983, las computadoras conectadas a ARPANET podían comunicarse entre sí, pero principalmente dentro de la misma red. La adopción de TCP/IP permitió la interconexión de diferentes redes, convirtiéndose en la base del Internet moderno."
+},
+
+
+
+{
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente a NSFNET? (Seleccione cuatro opciones)",
+  "options": [
+    "Conectaba universidades, centros de investigación y centros de supercómputo.",
+    "Se convirtió en el backbone (red troncal) de Internet durante la década de 1980.",
+    "Permitió el surgimiento de los proveedores de servicios de Internet (ISP).",
+    "Reemplazó gradualmente a ARPANET, que fue desmantelada en 1990.",
+    "Fue creada para sustituir TCP/IP por un nuevo protocolo de comunicación.",
+    "Fue una red exclusivamente militar administrada por el Departamento de Defensa."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "NSFNET fue una red creada por la National Science Foundation para ampliar la conectividad entre instituciones académicas y de investigación. Se convirtió en el backbone de Internet durante los años 80, favoreció el surgimiento de los ISP y reemplazó gradualmente a ARPANET, que fue desmantelada en 1990."
+},
+
+
+
+{
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente a NSFNET? (Seleccione cuatro opciones)",
+  "options": [
+    "Permitió el surgimiento de los proveedores de servicios de Internet (ISP).",
+    "Fue creada exclusivamente para uso militar por el Departamento de Defensa.",
+    "Se convirtió en el backbone (red troncal) de Internet durante la década de 1980.",
+    "Conectaba universidades, centros de investigación y centros de supercómputo.",
+    "Fue diseñada para reemplazar TCP/IP como protocolo de Internet.",
+    "Reemplazó gradualmente a ARPANET, que fue desmantelada en 1990."
+  ],
+  "answer": [0,2,3,5],
+  "explanation": "NSFNET fue una red creada por la National Science Foundation (NSF) para ampliar la conectividad entre instituciones académicas y de investigación. Conectó universidades, centros de investigación y centros de supercómputo, se convirtió en el backbone de Internet durante los años 80, permitió el surgimiento de los ISP y reemplazó gradualmente a ARPANET."
+},
+
+
+{
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente a un Backbone de Internet? (Seleccione cuatro opciones)",
+  "options": [
+    "Es la red principal de alta velocidad que conecta múltiples redes.",
+    "Transporta grandes volúmenes de datos entre redes.",
+    "Su función principal es asignar direcciones IP a los hosts.",
+    "Conecta redes regionales y redes de campus.",
+    "Es considerado la columna vertebral de Internet.",
+    "Opera únicamente dentro de una sola LAN."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "El backbone es la red principal de alta velocidad que interconecta múltiples redes. Se le conoce como la columna vertebral de Internet, conecta redes regionales y de campus, y transporta grandes cantidades de datos entre diferentes segmentos de red."
 },
 
 {
-question:"¿En qué década se desarrolló ARPANET?",
-options:[
-"1950s",
-"1960s",
-"1970s",
-"1980s"
-],
-answer:1,
-explanation:"ARPANET se desarrolló durante la década de los 60."
+  "question": "¿Cuáles de los siguientes acontecimientos caracterizaron la evolución del Internet moderno a partir de 1995? (Seleccione cuatro opciones)",
+  "options": [
+    "Surgen backbones descentralizados.",
+    "Internet se vuelve comercial.",
+    "ARPANET vuelve a convertirse en el backbone principal.",
+    "Aparecen grandes ISP.",
+    "NSFNET deja de operar como backbone principal.",
+    "Se reemplaza TCP/IP como estándar de Internet."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "En 1995 NSFNET dejó de operar como backbone principal. Surgieron backbones descentralizados administrados por empresas privadas, aparecieron grandes ISP y el uso comercial de Internet se expandió, dando origen al Internet moderno."
+},
+
+
+{
+  "question": "¿Cuál es la definición correcta de Internet?",
+  "options": [
+    "Una red global formada por la interconexión de múltiples redes que utilizan TCP/IP.",
+    "Una única red local administrada por un proveedor de servicios de Internet.",
+    "Un conjunto de computadoras conectadas exclusivamente mediante enlaces satelitales.",
+    "Un protocolo encargado de asignar direcciones IP a los dispositivos."
+  ],
+  "answer": 0,
+  "explanation": "Internet es una red global compuesta por múltiples redes interconectadas que utilizan la suite de protocolos TCP/IP para comunicarse entre sí."
 },
 
 {
-question:"¿Qué ocurrió en 1969 relacionado con ARPANET?",
-options:[
-"Desapareció NSFNET",
-"Comenzó TCP/IP",
-"Se conectaron los primeros nodos",
-"Se creó Ethernet"
-],
-answer:2,
-explanation:"En 1969 ARPANET inicia operaciones con sus primeros nodos."
+  "question": "¿Qué es un ISP (Internet Service Provider)?",
+  "options": [
+    "Una empresa que proporciona acceso a Internet conectándose al backbone.",
+    "Un protocolo encargado de asignar direcciones IP a los hosts.",
+    "Una red troncal utilizada para transportar datos entre continentes.",
+    "Un dispositivo utilizado para interconectar redes locales."
+  ],
+  "answer": 0,
+  "explanation": "Un ISP (Internet Service Provider) es una empresa que proporciona acceso a Internet a usuarios y organizaciones mediante su conexión a redes troncales o backbones."
 },
 
 {
-question:"¿Cuáles fueron nodos iniciales de ARPANET? (4 respuestas)",
-options:[
-"UCLA",
-"Stanford",
-"UC Santa Barbara",
-"University of Utah",
-"New York"
-],
-answer:[0,1,2,3],
-multiple:true,
-explanation:"Los primeros cuatro nodos de ARPANET fueron UCLA, Stanford, UC Santa Barbara y University of Utah."
+  "question": "¿Qué permite que Internet funcione como una red global interconectada?",
+  "options": [
+    "Que todos los ISP utilicen exclusivamente la misma infraestructura física.",
+    "Que los ISP desarrollen e interconecten sus propios backbones utilizando TCP/IP como protocolo común.",
+    "Que todas las redes del mundo pertenezcan a una única organización central.",
+    "Que los dispositivos se comuniquen únicamente mediante redes locales."
+  ],
+  "answer": 1,
+  "explanation": "Internet funciona como una red global porque múltiples ISP interconectan sus backbones y utilizan TCP/IP como estándar común de comunicación, permitiendo la interoperabilidad entre redes diferentes."
 },
 
 {
-question:"¿Cuál es la principal función de TCP/IP?",
-options:[
-"Crear circuitos físicos",
-"Permitir comunicación entre redes diferentes",
-"Crear direcciones MAC",
-"Dividir switches"
-],
-answer:1,
-explanation:"TCP/IP permite comunicación entre diferentes redes."
+  "question": "¿Cuál es una característica típica de una red doméstica?",
+  "options": [
+    "Está diseñada para conectar múltiples edificios corporativos mediante enlaces redundantes.",
+    "Conecta dispositivos del hogar como computadoras, laptops, celulares y televisores, proporcionando acceso a Internet mediante un router.",
+    "Utiliza exclusivamente servidores y teléfonos IP para las comunicaciones.",
+    "Requiere obligatoriamente switches de capa 3 y protocolos de enrutamiento dinámico."
+  ],
+  "answer": 1,
+  "explanation": "Una red doméstica conecta dispositivos del hogar como computadoras, laptops, celulares y televisores. Generalmente utiliza un router para proporcionar acceso a Internet y asignar direcciones IP mediante DHCP."
 },
 
 {
-question:"¿Quiénes desarrollaron TCP/IP? (2 respuestas)",
-options:[
-"Robert Kahn",
-"Vinton Cerf",
-"Joseph Licklider",
-"Robert Metcalfe"
-],
-answer:[0,1],
-multiple:true,
-explanation:"Robert Kahn y Vinton Cerf desarrollaron TCP/IP."
+  "question": "¿Cuáles de las siguientes afirmaciones describen correctamente las tecnologías de acceso a Internet ADSL y Cable? (Seleccione tres opciones)",
+  "options": [
+    "ADSL utiliza la línea telefónica.",
+    "Cable utiliza cable coaxial y suele ofrecer mayor velocidad que ADSL.",
+    "ADSL utiliza cable coaxial como medio principal.",
+    "Cable normalmente utiliza ancho de banda compartido.",
+    "ADSL siempre es más rápido que Cable.",
+    "Ambas tecnologías fueron diseñadas exclusivamente para redes empresariales."
+  ],
+  "answer": [0,1,3],
+  "explanation": "ADSL utiliza la línea telefónica y generalmente ofrece velocidades menores. La tecnología Cable utiliza cable coaxial, suele ser más rápida y normalmente comparte el ancho de banda entre varios usuarios."
 },
 
 {
-question:"¿Qué ocurrió en 1983?",
-options:[
-"Nació IPv6",
-"TCP/IP se convierte en estándar de ARPANET",
-"Desaparece Internet",
-"Se crea Ethernet"
-],
-answer:1,
-explanation:"1983 marca el nacimiento del Internet moderno con TCP/IP como estándar."
+  "question": "¿Qué característica distingue principalmente a una red empresarial de una red doméstica?",
+  "options": [
+    "Las redes empresariales son de mayor escala, utilizan más dispositivos y suelen requerir mayores niveles de seguridad y complejidad.",
+    "Las redes empresariales no utilizan routers ni switches para la conectividad.",
+    "Las redes empresariales únicamente permiten acceso local y no acceso a Internet.",
+    "Las redes empresariales están limitadas a conectar un solo dispositivo por usuario."
+  ],
+  "answer": 0,
+  "explanation": "Las redes empresariales suelen conectar una gran cantidad de dispositivos, incluyen infraestructura más compleja y requieren mayores niveles de seguridad, administración y disponibilidad que una red doméstica."
 },
 
 {
-question:"¿Qué red reemplazó a ARPANET?",
-options:[
-"Ethernet",
-"NSFNET",
-"DECNET",
-"SNA"
-],
-answer:1,
-explanation:"NSFNET reemplazó a ARPANET."
+  "question": "¿Qué describe mejor una red SOHO (Small Office / Home Office)?",
+  "options": [
+    "Una red utilizada exclusivamente por grandes corporaciones con múltiples sucursales.",
+    "Una red diseñada únicamente para centros de datos y proveedores de Internet.",
+    "Una red con funciones empresariales básicas utilizada en pequeñas oficinas o en hogares donde se realiza trabajo remoto.",
+    "Una red militar utilizada para conectar instalaciones gubernamentales."
+  ],
+  "answer": 2,
+  "explanation": "SOHO (Small Office / Home Office) describe redes pequeñas que incorporan funciones empresariales básicas. Pueden utilizarse tanto en pequeñas oficinas como en hogares donde se realiza trabajo remoto o actividades profesionales."
 },
 
 {
-question:"¿Qué función cumplía NSFNET?",
-options:[
-"Crear routers",
-"Servir como backbone",
-"Administrar VLAN",
-"Controlar DNS"
-],
-answer:1,
-explanation:"NSFNET funcionó como backbone principal."
+  "question": "¿En cuáles de los siguientes escenarios es común encontrar una red SOHO? (Seleccione dos opciones)",
+  "options": [
+    "Una pequeña oficina con necesidades básicas de red.",
+    "Un hogar donde se realiza trabajo remoto o actividades profesionales.",
+    "Un backbone de Internet operado por un ISP.",
+    "Un centro de datos de una multinacional."
+  ],
+  "answer": [0,1],
+  "explanation": "Las redes SOHO (Small Office / Home Office) se utilizan comúnmente en pequeñas oficinas y en hogares donde se realizan actividades laborales o empresariales que requieren funciones básicas de red."
 },
 
 {
-question:"¿Qué característica NO pertenece a NSFNET?",
-options:[
-"Conectaba universidades",
-"Era comercial desde el inicio",
-"Funcionó como backbone",
-"Permitió el surgimiento de ISP"
-],
-answer:1,
-explanation:"NSFNET no era comercial inicialmente."
+  "question": "¿Qué estándar IEEE está asociado con la tecnología Ethernet utilizada en redes LAN?",
+  "options": [
+    "IEEE 802.11",
+    "IEEE 802.1Q",
+    "IEEE 802.3",
+    "IEEE 802.15"
+  ],
+  "answer": 2,
+  "explanation": "Ethernet es una tecnología de red utilizada en redes LAN y está definida por el estándar IEEE 802.3."
 },
 
 {
-question:"¿Qué significa backbone de Internet?",
-options:[
-"Servidor principal",
-"Switch central",
-"Red principal de alta velocidad",
-"Modelo OSI"
-],
-answer:2,
-explanation:"El backbone es la columna vertebral de Internet."
+  "question": "¿Cuáles de las siguientes características corresponden a la conmutación por circuitos? (Seleccione cuatro opciones)",
+  "options": [
+    "Requiere establecer una conexión antes de transmitir datos.",
+    "Utiliza un camino dedicado durante toda la comunicación.",
+    "Los paquetes pueden tomar rutas diferentes en cada transmisión.",
+    "Los recursos son de uso exclusivo mientras dura la comunicación.",
+    "La comunicación suele ser estable y continua.",
+    "Comparte dinámicamente los recursos entre múltiples conversaciones."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "En la conmutación por circuitos se establece previamente un camino dedicado entre los dispositivos. Los recursos permanecen reservados durante toda la comunicación, proporcionando una transmisión estable y continua."
 },
 
 {
-question:"¿Qué se conecta al backbone?",
-options:[
-"Solo ISP",
-"Solo switches",
-"Redes regionales y campus",
-"Solo redes domésticas"
-],
-answer:2,
-explanation:"El backbone conecta redes regionales y de campus."
+  "question": "¿Cuáles son desventajas de la conmutación por circuitos? (Seleccione cuatro opciones)",
+  "options": [
+    "Puede existir desperdicio de ancho de banda.",
+    "Si no hay circuitos disponibles, no pueden establecerse nuevas comunicaciones.",
+    "No requiere tiempo de establecimiento previo.",
+    "Utiliza un camino fijo durante toda la conexión.",
+    "Puede resultar costosa debido a los recursos dedicados.",
+    "Permite un uso más eficiente de los recursos que la conmutación por paquetes."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "La conmutación por circuitos puede desperdiciar ancho de banda, requiere establecer previamente el circuito, tiene un número limitado de conexiones simultáneas y suele ser más costosa debido al uso de recursos dedicados."
 },
 
 {
-question:"¿Qué ocurrió en 1995 relacionado con Internet?",
-options:[
-"TCP/IP desaparece",
-"NSFNET deja de ser backbone principal",
-"ARPANET inicia",
-"OSI reemplaza TCP/IP"
-],
-answer:1,
-explanation:"En 1995 surgen backbones privados y NSFNET deja de ser principal."
+  "question": "¿Cuáles de las siguientes tecnologías utilizan conmutación por circuitos? (Seleccione tres opciones)",
+  "options": [
+    "PSTN (Red Telefónica Pública Conmutada)",
+    "Ethernet",
+    "Leased Lines (Líneas dedicadas)",
+    "ISDN (Red Digital de Servicios Integrados)",
+    "Internet",
+    "Wi-Fi"
+  ],
+  "answer": [0,2,3],
+  "explanation": "PSTN, ISDN y las Leased Lines son ejemplos clásicos de tecnologías basadas en conmutación por circuitos, donde se establece un circuito dedicado para la comunicación."
+},
+
+
+{
+  "question": "¿Cuáles son ventajas de la conmutación por paquetes? (Seleccione cuatro opciones)",
+  "options": [
+    "Permite múltiples comunicaciones simultáneas.",
+    "Tolera fallas mediante rutas alternativas.",
+    "Requiere recursos dedicados para cada comunicación.",
+    "Hace un uso eficiente del ancho de banda.",
+    "Ofrece mayor flexibilidad que la conmutación por circuitos.",
+    "Necesita un circuito exclusivo para cada usuario."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "La conmutación por paquetes aprovecha mejor el ancho de banda, permite múltiples comunicaciones simultáneas, ofrece mayor flexibilidad y puede utilizar rutas alternativas cuando ocurre una falla."
 },
 
 {
-question:"¿Qué es Internet?",
-options:[
-"Un navegador",
-"Una página web",
-"Una red global interconectada",
-"Un protocolo"
-],
-answer:2,
-explanation:"Internet es una red global formada por múltiples redes."
+  "question": "¿Cuáles de las siguientes características corresponden a la conmutación por paquetes? (Seleccione cuatro opciones)",
+  "options": [
+    "Los paquetes se reensamblan al llegar al destino.",
+    "Utiliza rutas dinámicas en lugar de un camino fijo.",
+    "Requiere un circuito dedicado durante toda la comunicación.",
+    "Los datos se dividen en paquetes.",
+    "Los recursos son compartidos entre múltiples comunicaciones.",
+    "Debe establecer una conexión física dedicada antes de transmitir."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "En la conmutación por paquetes, los datos se dividen en paquetes independientes que pueden viajar por distintas rutas. Los recursos son compartidos y los paquetes se reensamblan al llegar al destino."
 },
 
 {
-question:"¿Qué es un ISP?",
-options:[
-"Empresa que proporciona acceso a Internet",
-"Tipo de switch",
-"Protocolo",
-"Servidor web"
-],
-answer:0,
-explanation:"ISP proporciona acceso a Internet."
+  "question": "¿Cuáles son desventajas de la conmutación por paquetes? (Seleccione tres opciones)",
+  "options": [
+    "Puede existir latencia.",
+    "Los paquetes pueden llegar desordenados.",
+    "Garantiza un camino fijo durante toda la comunicación.",
+    "Puede producirse pérdida de paquetes.",
+    "Utiliza exclusivamente recursos dedicados.",
+    "Requiere un circuito exclusivo para cada conexión."
+  ],
+  "answer": [0,1,3],
+  "explanation": "En la conmutación por paquetes puede existir latencia, pérdida de paquetes y llegada desordenada de la información, por lo que el destino debe reensamblar correctamente los datos."
 },
 
 {
-question:"¿Cuál es una característica de una red doméstica?",
-options:[
-"Muchos edificios",
-"Uso de routers domésticos",
-"Backbone propio",
-"Datacenter"
-],
-answer:1,
-explanation:"Las redes domésticas suelen usar routers domésticos."
+  "question": "¿Cuál es el propósito principal de un modelo de red?",
+  "options": [
+    "Asignar direcciones IP automáticamente a los dispositivos.",
+    "Describir la función de cada capa y cómo interactúan para lograr la comunicación.",
+    "Definir la velocidad máxima de transmisión de una red.",
+    "Establecer una ruta fija para todos los paquetes de datos."
+  ],
+  "answer": 1,
+  "explanation": "Un modelo de red describe las funciones de cada capa y la manera en que interactúan entre sí para permitir la comunicación entre dispositivos."
+},
+
+
+{
+  "question": "¿Por qué se utilizan capas en los modelos de red? (Seleccione cuatro opciones)",
+  "options": [
+    "Facilitan el diseño de redes.",
+    "Permiten compatibilidad entre diferentes tecnologías.",
+    "Obligan a que todos los fabricantes utilicen el mismo hardware.",
+    "Dividen el proceso de comunicación en funciones específicas.",
+    "Facilitan la detección y solución de fallas.",
+    "Eliminan la necesidad de utilizar protocolos de red."
+  ],
+  "answer": [0,1,3,4],
+  "explanation": "Las capas permiten dividir el proceso de comunicación, facilitar el diseño de redes, mejorar la compatibilidad entre tecnologías y simplificar la detección y solución de problemas."
 },
 
 {
-question:"¿Qué tecnología utiliza línea telefónica?",
-options:[
-"Cable",
-"ADSL",
-"Ethernet",
-"Fibra"
-],
-answer:1,
-explanation:"ADSL utiliza infraestructura telefónica."
+  "question": "¿Cuáles de las siguientes asociaciones entre tecnologías de red y su tipo son correctas? (Seleccione cinco opciones)",
+  "options": [
+    "OSI → Estándar abierto (ISO)",
+    "IBM - SNA → Propietaria de IBM",
+    "TCP/IP → Estándar abierto",
+    "Digital - DECNET → Propietaria de Digital Equipment Corporation (DEC)",
+    "Xerox - XNS → Propietaria de Xerox",
+    "TCP/IP → Propietaria de Microsoft",
+    "OSI → Propietaria de IBM"
+  ],
+  "answer": [0,1,2,3,4],
+  "explanation": "IBM-SNA, Xerox-XNS y DECNET fueron tecnologías propietarias desarrolladas por sus respectivos fabricantes. Por el contrario, OSI (ISO, 1984) y TCP/IP son estándares abiertos que permiten la interoperabilidad entre diferentes fabricantes y tecnologías."
 },
 
 {
-question:"¿Cuál suele ser más rápido?",
-options:[
-"ADSL",
-"Cable"
-],
-answer:1,
-explanation:"Cable suele ofrecer más velocidad que ADSL."
+  "question": "¿Cuáles fueron razones importantes para la adopción global de TCP/IP? (Seleccione tres opciones)",
+  "options": [
+    "Permitía interconectar diferentes redes.",
+    "Era más sencillo de implementar.",
+    "Funcionaba exitosamente en ARPANET.",
+    "Requería siete capas obligatorias para operar.",
+    "Dependía exclusivamente de hardware propietario."
+  ],
+  "answer": [0,1,2],
+  "explanation": "TCP/IP se adoptó globalmente porque era más sencillo de implementar, permitía interconectar redes diferentes y ya había demostrado su funcionamiento práctico en ARPANET."
 },
 
 {
-question:"¿Qué función realiza un router doméstico? (3 respuestas)",
-options:[
-"Conectar dispositivos",
-"Asignar IP mediante DHCP",
-"Permitir salida a Internet",
-"Crear backbone"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"El router conecta dispositivos, asigna IP y conecta a Internet."
+  "question": "¿Cuáles son funciones e importancia del modelo OSI? (Seleccione cuatro opciones)",
+  "options": [
+    "Permite analizar problemas de red.",
+    "Explica cómo interactúan las capas.",
+    "Describe la operación general de una red.",
+    "Define la comunicación entre protocolos.",
+    "Es el protocolo utilizado por Internet para transportar datos.",
+    "Reemplazó completamente a TCP/IP en ARPANET."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "El modelo OSI fue publicado por la ISO en 1984 para describir cómo funciona una red, explicar la interacción entre capas, definir la comunicación entre protocolos y facilitar el análisis de problemas."
 },
 
 {
-question:"¿Qué significa SOHO?",
-options:[
-"Small Office Home Office",
-"Simple Open Host Organization",
-"Shared Office Host Operation",
-"Secure Office Home Option"
-],
-answer:0,
-explanation:"SOHO significa Small Office/Home Office."
+  "question": "¿Cuáles de las siguientes afirmaciones comparan correctamente TCP/IP y OSI? (Seleccione cuatro opciones)",
+  "options": [
+    "TCP/IP apareció antes que OSI.",
+    "OSI fue publicado en 1984 por la ISO.",
+    "TCP/IP ya funcionaba en ARPANET.",
+    "OSI es principalmente un modelo de referencia teórico.",
+    "Internet utiliza OSI como protocolo principal de comunicación.",
+    "TCP/IP surgió después del modelo OSI."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "TCP/IP surgió en los años 70 y ya funcionaba en ARPANET. OSI fue publicado en 1984 por la ISO como un modelo de referencia para explicar y estandarizar la comunicación en redes."
 },
 
 {
-question:"¿Qué estándar utiliza Ethernet?",
-options:[
-"IEEE 802.11",
-"IEEE 802.3",
-"IEEE 802.1Q",
-"IEEE 802.5"
-],
-answer:1,
-explanation:"Ethernet utiliza el estándar IEEE 802.3 para definir cómo se transmiten los datos a través de redes cableadas."
+  "question": "¿Cuáles fueron factores que dificultaron la adopción práctica del modelo OSI? (Seleccione cuatro opciones)",
+  "options": [
+    "Su implementación era compleja.",
+    "Llegó cuando TCP/IP ya funcionaba en la práctica.",
+    "Resultaba más costoso de desarrollar e implementar.",
+    "Presentó problemas de implementación y eficiencia.",
+    "No permitía dividir funciones en capas.",
+    "Carecía completamente de estandarización."
+  ],
+  "answer": [0,1,2,3],
+  "explanation": "OSI no estaba técnicamente equivocado, pero su implementación era compleja, costosa y tardía. Mientras tanto, TCP/IP ya funcionaba eficientemente en redes reales, favoreciendo su adopción."
 },
 
 {
-question:"¿Cuál es una característica de circuit switching?",
-options:[
-"Rutas dinámicas",
-"Camino dedicado",
-"Recursos compartidos",
-"Paquetes independientes"
-],
-answer:1,
-explanation:"Circuit switching usa caminos dedicados."
+  "question": "¿Cuál es la diferencia principal entre NCP y TCP/IP?",
+  "options": [
+    "NCP permitía la comunicación entre computadoras dentro de una misma red, mientras que TCP/IP permitió la comunicación e interconexión entre diferentes redes.",
+    "NCP utilizaba direcciones IP y TCP/IP utilizaba únicamente direcciones MAC.",
+    "NCP fue diseñado para Internet y TCP/IP para redes locales.",
+    "NCP reemplazó a TCP/IP debido a su mayor capacidad para interconectar redes."
+  ],
+  "answer": 0,
+  "explanation": "NCP (Network Control Protocol) permitía la comunicación entre computadoras conectadas a una misma red, como ARPANET. TCP/IP superó esta limitación al permitir la interconexión y comunicación entre múltiples redes diferentes, convirtiéndose en la base de Internet."
 },
 
 {
-question:"¿Qué tecnología usa tradicionalmente conmutación por circuitos?",
-options:[
-"Internet",
-"PSTN",
-"Ethernet",
-"TCP/IP"
-],
-answer:1,
-explanation:"La telefonía PSTN utiliza circuit switching."
-},
-
-{
-question:"¿Cuáles son desventajas de circuit switching? (3 respuestas)",
-options:[
-"Recursos dedicados",
-"Poca flexibilidad",
-"Usuarios limitados",
-"Uso eficiente"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"Circuit switching desperdicia recursos y limita usuarios."
-},
-
-{
-question:"¿Qué caracteriza a packet switching?",
-options:[
-"Canal dedicado",
-"Camino fijo",
-"Rutas dinámicas",
-"Conexión física permanente"
-],
-answer:2,
-explanation:"Packet switching utiliza rutas dinámicas."
-},
-
-{
-question:"¿Qué contiene un paquete? (4 respuestas)",
-options:[
-"IP origen",
-"IP destino",
-"Datos",
-"Encabezado",
-"Fuente de poder"
-],
-answer:[0,1,2,3],
-multiple:true,
-explanation:"Los paquetes contienen encabezado, datos y direcciones."
-},
-
-{
-question:"¿Qué ocurre al final del packet switching?",
-options:[
-"Se destruyen datos",
-"Se reensamblan paquetes",
-"Se elimina IP",
-"Se apaga la red"
-],
-answer:1,
-explanation:"Los paquetes se reconstruyen al final."
-},
-
-{
-question:"¿Qué utiliza Internet actualmente?",
-options:[
-"Circuit switching",
-"Packet switching",
-"Canales dedicados",
-"PSTN"
-],
-answer:1,
-explanation:"Internet usa packet switching mediante TCP/IP."
-},
-
-{
-question:"¿Cuál es función de un modelo de red?",
-options:[
-"Crear routers",
-"Describir funciones de capas",
-"Asignar VLAN",
-"Crear direcciones MAC"
-],
-answer:1,
-explanation:"Los modelos describen funciones e interacción entre capas."
-},
-
-{
-question:"¿Por qué existen las capas en redes? (3 respuestas)",
-options:[
-"Facilitar diseño",
-"Detectar fallas",
-"Compatibilidad",
-"Reducir electricidad"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"Las capas simplifican diseño, compatibilidad y troubleshooting."
-},
-
-{
-question:"¿Cuál es un modelo propietario?",
-options:[
-"TCP/IP",
-"OSI",
-"DECNET",
-"IPv4"
-],
-answer:2,
-explanation:"DECNET fue un modelo propietario."
-},
-
-{
-question:"¿Por qué TCP/IP ganó sobre OSI?",
-options:[
-"Era más complejo",
-"Ya funcionaba en la práctica",
-"No tenía capas",
-"OSI era más rápido"
-],
-answer:1,
-explanation:"TCP/IP ya funcionaba en ARPANET y podía implementarse en diferentes fabricantes, mientras que OSI apareció después como modelo teórico."
-},
-
-{
-question:"¿Cuál es una diferencia correcta entre TCP/IP y OSI?",
-options:[
-"OSI funciona en Internet",
-"TCP/IP es práctico y OSI teórico",
-"OSI salió primero",
-"TCP/IP no tiene capas"
-],
-answer:1,
-explanation:"TCP/IP fue implementado en redes reales como ARPANET mientras que OSI fue desarrollado principalmente como modelo de referencia para estandarización."
-},
-
-{
-question:"¿Qué problema presentaba OSI?",
-options:[
-"Falta de teoría",
-"Implementación compleja",
-"No tenía capas",
-"No podía explicar redes"
-],
-answer:1,
-explanation:"OSI era muy completo teóricamente, pero su implementación práctica era compleja comparada con TCP/IP."
-},
-
-{
-question:"¿Qué es un host?",
-options:[
-"Dispositivo conectado a red",
-"Backbone",
-"Switch",
-"Cable"
-],
-answer:0,
-explanation:"Host es cualquier dispositivo conectado a una red que puede enviar o recibir información."
-},
-
-{
-question:"¿Qué tipo de comunicación es uno a todos?",
-options:[
-"Unicast",
-"Broadcast",
-"Multicast",
-"Anycast"
-],
-answer:1,
-explanation:"Broadcast significa uno a todos los dispositivos dentro de la misma red."
-},
-
-{
-question:"¿Cuál es diferencia correcta entre Internet y Web?",
-options:[
-"Son lo mismo",
-"Internet es infraestructura y Web es servicio",
-"Web reemplazó Internet",
-"Internet usa solo HTTP"
-],
-answer:1,
-explanation:"Internet es la infraestructura global de redes y la Web es un servicio que funciona sobre ella usando HTTP/HTTPS."
-},
-
-{
-question:"¿Qué características pertenecen a la conmutación por circuitos? (Elige 3)",
-options:[
-"Camino dedicado",
-"Recursos no compartidos",
-"Requiere establecer conexión previa",
-"Utiliza múltiples comunicaciones simultáneas"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"La conmutación por circuitos establece un camino dedicado antes de iniciar la comunicación. Los recursos quedan reservados exclusivamente para esa conexión y no son compartidos con otros usuarios."
-},
-
-{
-question:"¿Cuáles son desventajas de la conmutación por circuitos? (Elige 3)",
-options:[
-"Desperdicio de ancho de banda",
-"Hay retraso inicial",
-"Si no hay circuitos disponibles no hay comunicación",
-"Es muy barato"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"Circuit switching desperdicia ancho de banda, presenta retraso inicial y depende de la disponibilidad de circuitos."
-},
-
-{
-question:"¿Cuál es el funcionamiento de la conmutación por paquetes? (Elige 3)",
-options:[
-"Se divide el mensaje",
-"Los paquetes pueden tomar rutas diferentes",
-"Los paquetes pueden llegar desordenados",
-"Al final no se ordenan"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"Packet switching divide la información en paquetes que pueden viajar por rutas diferentes y llegar desordenados, pero protocolos como TCP permiten reordenarlos."
-},
-
-{
-question:"¿Cuáles son modelos propietarios de red? (Elige 3)",
-options:[
-"IBM-SNA",
-"Xerox-XNS",
-"Digital-DECNET",
-"TCP/IP"
-],
-answer:[0,1,2],
-multiple:true,
-explanation:"IBM-SNA, Xerox-XNS y DECNET eran modelos propietarios controlados por empresas específicas. TCP/IP no es propietario porque evolucionó como estándar abierto."
-},
-
-{
-question:"¿En qué año apareció oficialmente el modelo OSI?",
-options:[
-"1984",
-"1985",
-"1986",
-"1987"
-],
-answer:0,
-explanation:"El modelo OSI fue publicado oficialmente por la ISO en 1984 como estándar de referencia para comunicaciones de red."
-},
-
-{
-question:"¿Por qué los modelos propietarios representaban un problema en las redes antiguas?",
-options:[
-"Porque utilizaban demasiados cables",
-"Porque solo funcionaban con tecnologías y equipos del mismo fabricante",
-"Porque no utilizaban protocolos",
-"Porque eran inalámbricos"
-],
-answer:1,
-explanation:"Los modelos propietarios limitaban la interoperabilidad porque normalmente solo funcionaban correctamente con equipos del mismo fabricante."
-},
-
-{
-question:"¿Cuál fue una ventaja importante de packet switching frente a circuit switching?",
-options:[
-"Necesita circuitos dedicados",
-"Utiliza mejor los recursos de red",
-"Requiere menos routers",
-"No divide la información"
-],
-answer:1,
-explanation:"Packet switching comparte recursos entre múltiples comunicaciones y aprovecha mejor el ancho de banda disponible."
-},
-
-{
-question:"¿Por qué TCP/IP fue considerado un estándar abierto?",
-options:[
-"Porque pertenecía exclusivamente a Cisco",
-"Porque podía ser implementado por cualquier fabricante",
-"Porque solo funcionaba en universidades",
-"Porque utilizaba circuit switching"
-],
-answer:1,
-explanation:"TCP/IP podía implementarse en múltiples sistemas y fabricantes diferentes, permitiendo interoperabilidad global."
-},
-
-{
-question:"¿Cuál es una diferencia importante entre circuit switching y packet switching?",
-options:[
-"Packet switching usa recursos compartidos",
-"Circuit switching divide mensajes en paquetes",
-"Packet switching necesita un circuito fijo",
-"Ambos usan caminos dedicados"
-],
-answer:0,
-explanation:"Packet switching utiliza recursos compartidos y rutas dinámicas, mientras que circuit switching utiliza caminos dedicados."
-},
-
-{
-question:"¿Por qué OSI no logró dominar Internet aunque fuera un estándar internacional?",
-options:[
-"Porque no tenía capas",
-"Porque TCP/IP ya funcionaba en implementaciones reales",
-"Porque OSI era propietario",
-"Porque OSI utilizaba switches"
-],
-answer:1,
-explanation:"TCP/IP ya estaba implementado en ARPANET y otras redes reales antes de la publicación oficial de OSI."
-},
-
-{
-question:"¿Qué ventaja proporcionó el uso de capas en los modelos de red?",
-options:[
-"Reducir electricidad",
-"Eliminar routers",
-"Dividir funciones para facilitar diseño y troubleshooting",
-"Evitar direcciones IP"
-],
-answer:2,
-explanation:"Las capas permiten separar funciones específicas, facilitando diseño, compatibilidad y resolución de problemas."
-},
-
-{
-question:"¿Qué característica describe mejor a Internet moderno?",
-options:[
-"Red única centralizada",
-"Conjunto de redes interconectadas usando TCP/IP",
-"Solo redes universitarias",
-"Conmutación exclusivamente por circuitos"
-],
-answer:1,
-explanation:"Internet moderno es una red global formada por múltiples redes interconectadas mediante TCP/IP."
-},
-
-{
-question:"¿Qué ocurre si un paquete se pierde en packet switching?",
-options:[
-"La red completa deja de funcionar",
-"Los datos no pueden recuperarse jamás",
-"Protocolos como TCP pueden solicitar retransmisión",
-"Se destruye la dirección IP"
-],
-answer:2,
-explanation:"TCP detecta pérdida de paquetes y solicita retransmisión para garantizar entrega confiable."
-},
-
-{
-question:"¿Cuál fue una función importante de ARPANET?",
-options:[
-"Conectar investigadores y universidades",
-"Crear VLANs",
-"Implementar IPv6",
-"Reemplazar Ethernet"
-],
-answer:0,
-explanation:"ARPANET permitió compartir recursos e información entre universidades y centros de investigación."
-},
-
-{
-question:"¿Por qué backbone es considerado la columna vertebral de Internet?",
-options:[
-"Porque almacena páginas web",
-"Porque conecta grandes redes mediante enlaces de alta velocidad",
-"Porque reemplaza routers",
-"Porque utiliza únicamente fibra óptica"
-],
-answer:1,
-explanation:"El backbone conecta grandes redes e ISP mediante enlaces de alta velocidad capaces de transportar enormes cantidades de tráfico."
+  "question": "¿Cuáles de los siguientes acontecimientos forman parte de la cronología de la evolución de ARPANET hacia el Internet moderno? (Seleccione diez opciones)",
+  "options": [
+    "1957: La Unión Soviética lanza el Sputnik.",
+    "1958: ARPA (Advanced Research Projects Agency) es creada por el Departamento de Defensa de Estados Unidos como respuesta al Sputnik.",
+    "1962: J. C. R. Licklider se incorpora a ARPA y dirige IPTO, impulsando la idea de una red global de computadoras.",
+    "1969: ARPANET, precursor de Internet, inicia operaciones con sus primeros 4 nodos utilizando NCP (Network Control Protocol).",
+    "1973: ARPANET ya contaba con 37 nodos conectados.",
+    "Años 70: Vinton Cerf y Robert Kahn desarrollan la suite de protocolos TCP/IP.",
+    "1983: TCP/IP se convierte en el estándar oficial de ARPANET.",
+    "Década de 1980: NSFNET se convierte en el backbone (red troncal) de Internet.",
+    "1990: ARPANET es desmantelada gradualmente tras ser reemplazada por NSFNET.",
+    "1995: NSFNET deja de operar como backbone principal e inicia la era comercial de Internet.",
+    "1998: Se implementa IPv6 como estándar mundial.",
+    "1983: Se crea Ethernet IEEE 802.3.",
+    "2001: Se publica el estándar IEEE 802.11g.",
+    "ARPANET fue creada por Cisco para conectar universidades."
+  ],
+  "answer": [0,1,2,3,4,5,6,7,8,9],
+  "explanation": "La secuencia histórica principal es: Sputnik (1957), creación de ARPA (1958), incorporación de Licklider (1962), inicio de ARPANET con NCP (1969), crecimiento a 37 nodos (1973), desarrollo de TCP/IP en los años 70, adopción de TCP/IP como estándar en 1983, NSFNET como backbone durante los años 80, desmantelamiento de ARPANET en 1990 e inicio de la era comercial de Internet en 1995."
 }
+
+
+  
+
+  
+
+
+
+  
 
 ],
 
